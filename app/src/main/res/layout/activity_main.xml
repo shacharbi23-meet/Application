@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="205dp"
         android:gravity="center"
-        android:text="@string/top"
+        android:text="Sign In"
         android:textSize="50sp" />
 
     <EditText
@@ -21,20 +21,20 @@
         android:layout_width="match_parent"
         android:layout_height="137dp"
         android:gravity="center"
-        android:hint="@string/Email"
+        android:hint="Email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
-        android:text="@string/Email" />
+        android:text="Email" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:gravity="center"
-        android:hint="@string/Password"
+        android:hint="Password"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:text="@string/Password" />
+        android:text="Password" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:gravity="center"
             android:layout_weight="@integer/material_motion_duration_long_2"
             android:layout_margin="20dp"
-            android:text="@string/SignUp" />
+            android:text="SIgn Up" />
 
         <Button
             android:id="@+id/SignIn"
@@ -56,7 +56,7 @@
             android:gravity="center"
             android:layout_weight="@integer/material_motion_duration_long_2"
             android:layout_margin="20dp"
-            android:text="@string/SignIn"/>
+            android:text="Sign In"/>
     </LinearLayout>
 
 
