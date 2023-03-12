@@ -17,12 +17,14 @@
         android:text="Sign Up" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/nameup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:hint="Name"
         android:importantForAutofill="no"
+        android:minHeight="48dp"
         android:text="Name" />
 
     <EditText
@@ -33,16 +35,19 @@
         android:hint="Email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
         android:text="Email" />
 
     <EditText
         android:id="@+id/passwordup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:hint="Password"
         android:importantForAutofill="no"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         android:text="Password" />
 
     <Button
