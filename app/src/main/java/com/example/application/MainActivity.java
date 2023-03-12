@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
         }
         else if (v == SignIn){
-            SignIn.setText(SignIn.getText().toString());
+            Intent inte = new Intent(this, HomeActivity.class);
+            startActivity(inte);
+        }
         }
     }
-}
