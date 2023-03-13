@@ -30,7 +30,13 @@ public class UserArrayAdapter extends ArrayAdapter<User> {
             convertView = LayoutInflater.from(this.context).inflate(this.resource, parent, false);
         }
         // Code goes here
-
+        User user = getItem(position);
+        if (user != null){
+            TextView name = convertView.findViewById(R.id.name);
+            name.setText(user.getName());
+            TextView emailhome = convertView.findViewById(R.id.emailhome);
+            emailhome.setText(user.getEmail());
+        }
         return convertView;
 
     }
